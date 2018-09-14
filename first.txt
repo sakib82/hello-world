@@ -1,0 +1,74 @@
+This is the first text file.
+This is the file that i have added later.
+this is the third line that i added after commit.
+
+
+i will also add a html file in the directory.
+
+hello.css file is added in newbranch
+
+ conflict hobe re mama!!!
+
+merge conflict!!!!!!
+
+
+
+codes for github : ----> 
+
+18  git
+   19  git init
+   20  git status
+   21  git add first.txt 
+   22  git status
+   23  git checkout
+   24  git status
+   25  git add first.txt 
+   26  git status
+   27  git commit
+   28  git status
+   29  git commit
+   30  git add first.txt 
+   31  git commit -m "new line"
+   32  git status
+   33  git log
+   34  git status
+   35  git add .
+   36  git status
+   37  git add *html
+   38  git status
+   39  touch .gitignore
+   40  git status
+   41  git add .
+   42  git commit -m "ignore file included"
+   43  git branch newbranch
+   44  git checkout newbranch 
+   45  touch hello.css
+   46  git status
+   47  git add .
+   48  git commit - 'changes in branch'
+   49  git commit -m 'changes in branch'
+   50  git checkout newbranch 
+   51  git checkout master
+   52  git checkout newbranch 
+   53  git checkout master
+   54  git status
+   55  git merge newbranch
+   56  git checkout newbranch 
+   57  git commit -a -m 'conflict in branch'
+   58  git merge master
+   59  git status
+   60  git commit -a -m "total merge"
+   61  git status
+   62  git mergetool
+   63  git remote
+   64  git status
+   65  git clone https://github.com/sakib82/hello-world.git
+   66  git remote
+   67  cd hello-world
+   68  git remote
+   69  git remote -v
+   70  git fetch origin
+   71  git pull origin
+   72  git commit -a -m "new line added"
+   73  git push origin master
+
